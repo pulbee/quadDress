@@ -11,9 +11,14 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.main {
-  width: 90vw;
-  margin: 0 auto;
+@media only screen and (orientation: landscape) {
+  .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 2rem auto;
+    max-width: 500px;
+  }
 }
 
 .main .header {
@@ -23,7 +28,7 @@ body {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin: 4vh auto;
+  margin: 1vh auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -31,9 +36,6 @@ body {
 
 .main .header .dp {
   padding: 0 auto;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
   margin: 1rem;
 }
 
@@ -42,17 +44,17 @@ body {
   border-radius: 1rem;
 }
 
-.main .header .info {
-  margin: 1rem;
-}
-
 .main .header .info #full-name {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #484e58;
 }
 
 .main .header .info #bio {
   display: block;
+  font-weight: 500;
   font-size: .8rem;
+  color: #808B9F;
 }
 
 .main .buttons {
@@ -63,13 +65,14 @@ body {
 }
 
 .main .buttons .social {
-  margin: 2rem;
+  margin: .2rem 0 2rem 0;
   background-color: #F0F0F3;
   -webkit-box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4), -10px -10px 30px #FFFFFF;
           box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4), -10px -10px 30px #FFFFFF;
   border-radius: 10rem;
   color: #808B9F;
   font-size: 1rem;
+  font-weight: 500;
   font-style: medium;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -80,6 +83,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-decoration: none;
 }
 
 .main .buttons .social__title {
