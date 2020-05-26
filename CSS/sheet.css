@@ -1,0 +1,200 @@
+
+
+body{
+	background-color: #F0F0F3;
+
+}
+
+
+
+.main{
+	display: grid;
+	grid-template-rows: 1fr 5fr;
+	align-content: center;
+	width: 100%;
+
+}
+
+
+
+#full-name{
+font-family: Rubik;
+font-style: bold;
+font-weight: 500;
+font-size: 23px;
+line-height: 100%;
+color: #8B97AD;
+
+}
+
+#bio{
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 100%;
+	/* or 12px */
+	
+	
+	color: #BDC7DA;
+	
+}
+ 
+
+
+.dp-image{
+width: 60.65px;
+height: 60.65px;
+border-radius: 56px;
+
+
+
+
+}
+
+
+
+.header{
+display: grid;
+grid-template-columns: auto;
+justify-items: center;
+
+}
+
+.profile{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+
+.buttons{
+display: grid;
+grid-template-columns: repeat(4/1fr);
+grid-template-rows: repeat(5, minmax(70px, 1fr));
+padding: 10px;
+
+
+
+}
+
+.icon-box{
+
+background-image: url(http://127.0.0.1:5500/assets/instagram.svg);
+background-size:cover;
+width: 10%;
+}
+
+/* .icons{
+margin: 2% auto;
+
+} */
+ 
+.social-box{
+/*width: 226px;
+height: 68px;
+left: 78px;
+top: 232px; */
+background-color: #F0F0F3;
+box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4), -10px -10px 30px #FFFFFF;
+border-radius: 42px;
+color:#808B9F;
+font-size: 17px;
+font-family: Rubik;
+font-style: medium;
+display: flex;
+align-items: center;
+justify-content: center;
+grid-column: 2/3;
+
+
+}
+ 
+#instagram{
+width: 226px;
+height: 68px;
+left: 78px;
+top: 232px;
+background-color: #F0F0F3;
+box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4), -10px -10px 30px #FFFFFF;
+border-radius: 42px;
+color:#808B9F;
+font-size: 23px;
+font-family: Rubik;
+font-style: medium;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#whatsapp{
+
+width: 271px;
+height: 68px;
+left: 55px;
+top: 344px;
+background: #F0F0F3;
+box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4), -10px -10px 30px #FFFFFF;
+border-radius: 42px;
+color:#808B9F;
+font-size: 23px;
+font-family: Rubik;
+font-style: medium;
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#facebook{
+width: 271px;
+height: 68px;
+left: 51px;
+top: 570px;
+background: #F0F0F3;
+box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4), -10px -10px 30px #FFFFFF;
+border-radius: 42px;
+color:#808B9F;
+font-size: 23px;
+font-family: Rubik;
+font-style: medium;
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#blog{
+width: 300px;
+height: 68px;
+left: 38px;
+top: 456px;
+background: #F0F0F3;
+box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4), -10px -10px 30px #FFFFFF;
+border-radius: 42px;
+color:#808B9F;
+font-size: 23px;
+font-family: Rubik;
+font-style: medium;
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#E-mail{
+width: 226px;
+height: 68px;
+left: 77px;
+top: 683px;
+background: #F0F0F3;
+box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4), -10px -10px 30px #FFFFFF;
+border-radius: 42px;
+color:#808B9F;
+font-size: 23px;
+font-family: Rubik;
+font-style: medium;
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+}

@@ -1,0 +1,102 @@
+$minimum-size: 23;
+$maximum-size: 40;
+$fluid-font: calc((#{($minimum-size)} * 1px) + (#{($maximum-size)} - #{($minimum-size)}) * ((100vw - 300px) / (1900 - 300)));
+$SocialText:#808B9F;
+$bg:#F0F0F3;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $bg;
+    font-size: $fluid-font;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+
+    width: 90vw;
+    margin: 0 auto;
+
+    .header {
+        //background-color: rgb(235, 235, 235);
+        display: flex;
+
+        width: fit-content;
+        margin: 4vh auto;
+        //padding: 1rem auto;
+        //justify-content: space-between;
+        align-items: center;
+
+
+        .dp {
+            padding: 0 auto;
+            height: fit-content;
+            margin: 1rem;
+
+            .dp-image {
+                height: 100%;
+
+                border-radius: 1rem;
+            }
+        }
+
+        .info {
+
+            margin: 1rem;
+
+            #full-name {
+                //margin: 1rem 1rem 0.2rem 1rem;
+                font-size: 2rem;
+            }
+
+            #bio {
+                display: block;
+                //margin: 0rem 1rem 1rem 1rem;
+
+                font-size: .8rem;
+            }
+        }
+    }
+
+    ///////////header///////////
+
+
+    .buttons {
+        max-width: fit-content;
+        margin: 0 auto;
+
+        .social {
+            //width: fit-content;
+            margin: 2rem;
+            background-color: #F0F0F3;
+            box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4), -10px -10px 30px #FFFFFF;
+            border-radius: 10rem;
+            color: #808B9F;
+            font-size: 1rem;
+            font-style: medium;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &__title {
+                //width: 30%;
+                //margin: 1rem;
+                margin: 1rem 1rem 1rem .5rem;
+            }
+
+            &__icon {
+                //width: 20%;
+                margin: 1rem .5rem 1rem 2rem;
+            }
+        }
+
+
+
+    }
+
+    ///////////buttons//////////
+}
